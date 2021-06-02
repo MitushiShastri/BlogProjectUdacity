@@ -1,0 +1,113 @@
+@import "style2.css";
+@import "backgroundstyle.css";
+@import "fontstyle.css";
+
+@media (max-width:500px){
+    .c{
+        display:grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 250px 600px;
+        /*border: 2px solid blue;*/
+        overflow: auto;
+        grid-template-areas: 
+        "hd"
+        "sd"
+        "main"
+        "fd";
+        padding: 15px;
+        font-size: default;
+    }
+}
+
+/*.box{
+    border:1px solid rgb(180, 133, 126);
+    background-color:rgb(163, 134, 136);
+
+
+}*/
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    left: 0px;
+    bottom: 10px;
+
+}
+
+section{
+    display:block;
+}
+
+.header2{
+    grid-area:hd;
+    /*background-color: darkolivegreen;*/
+    padding:15px;
+}
+footer{
+    grid-area:fd;
+    /*background-color: darkblue;*/
+    padding: 15px;
+}
+.contentpage{
+    grid-area: main;
+    overflow: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.sidebar2{
+    grid-area: sd;
+    /*background-color: crimson;*/
+    padding: 15px;
+}
+
+.navb{
+    width: 150px;
+    height:50px;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: block;
+
+}
+  .fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+  }  
+  .fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+  }
+  .fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+  }  
+
+@media(min-width:700px){
+    .c{
+        display:grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 150px 700px;
+        grid-template-areas: "hd hd hd hd hd hd hd hd"
+        "sd main main main main main main main"
+        "fd fd fd fd fd fd fd fd";
+        /*border: 2px solid rgb(180, 133, 126);*/
+        background-color:rgb(163, 134, 136);
+        overflow: auto;
+        padding: 15px;
+
+
+    }
+}

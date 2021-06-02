@@ -1,0 +1,27 @@
+header{
+    background-color: rgb(163, 134, 136);
+}
+
+article{
+    background-color: rgb(146, 110, 111);
+}
+
+nav{
+    background-color: rgb(245, 219, 220);
+}
+
+footer{
+    background-color: rgb(163, 134, 136);
+}
+
+body{
+    background-color: rgb(163, 134, 136);
+}
+
+.sidebar{
+    background-color: rgb(245, 219, 220);
+}
+
+.contentpage{
+    background-color: rgb(146, 110, 111);
+}

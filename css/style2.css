@@ -1,0 +1,44 @@
+.contentpage{
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    display: grid;
+    grid-template-columns: 60px 80px;
+    grid-template-rows: 80px 80px;
+    gap: 0px 5px;
+    grid-template-areas: "rr ss ss ss ss";
+}
+
+.auimage{
+    grid-area: rr;
+}
+
+.auname{
+    grid-area: ss;
+}
+figure{
+    justify-content: center; 
+    text-align: center;
+}
+
+u{
+    text-decoration: underline;
+}
+body{
+    background-color: rgb(163, 134, 136);
+    padding: 15px;
+}
+
+/*.aupos{
+    grid-area: nm;
+}
+
+.aubus{
+    grid-area: uu;
+}
+
+.aubio{
+    grid-area: gb;
+}*/
